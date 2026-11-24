@@ -174,7 +174,7 @@ jobs:
 
   package:
     name: Package IPA
-    runs-on: self-hosted
+    runs-on: macos-latest
     needs: build-tweaks
     permissions:
       contents: write
